@@ -20,7 +20,6 @@ const TextEditor = () => {
   };
   return (
     <>
-      {/* <h1>Text Editor</h1> */}
       <div className="container">
         <textarea
           vlaue={textValue}
