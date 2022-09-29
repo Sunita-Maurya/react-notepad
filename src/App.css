@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(18, 22, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;  
+}
+.container{
+  height: 500px;
+  width: 1000px;
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+
+ 
+}
+.container :where(textarea,select,input,button){
+  width: 100%;
+  padding:5px;
+  outline: none;
+  border-radius: 3px;
+  border:1px solid rgb(168, 163, 163);
+}
+textarea{
+  height: 400px;
+  padding: 10px;
+  resize: none;
+  
+}
+.options{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap:10px;
+  /* border: 1px solid; */
+ 
+}
+.fileoption{
+  display: flex;
+  gap: 20px;
+}
+.option{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* border: 1px solid; */
+}
+
+ label{
+  font-weight: bold;
+}
+.savebtn{
+  margin-top: 20px;
+  background-color:rgb(22, 38, 54);
+  color:white;
+  padding: 10px;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  /* padding: 30px 0px; */
+  margin-bottom: 50px;
+ text-decoration-line: underline;
+ text-decoration-style:dotted;
+
+
+}
