@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const TextEditor = () => {
   const [textValue, setTextValue] = useState("");
   const [selectFile, setSelectFile] = useState("");
